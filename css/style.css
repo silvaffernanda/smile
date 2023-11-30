@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    font-family: "Roboto";
+}
+
+.header{
+    margin: auto; /*centralizar*/
+    display: flex; /*para transformar em blocos*/
+    flex-direction: row; /*os blocos ficarão em linhas- temos tambem em coluna :colum*/
+    flex-wrap: wrap; /*quando utilizamos blocos eles ficam um do lado do outro mesmo que tenha tamanho total da tela, então para resolver isso ultilizamos*/
+    align-items: center; /*alinhando os blocos na vertical*/
+    width: 100%; 
+    height: auto;
+    max-width: 1320px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    padding: 15px;
+}
+
+
+.menu {
+   width: 50%; 
+   justify-content: right;
+   display: flex;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #2305cf;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.menu ul li .agendamento{
+    background-color: #176cc4;
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: #fff
+    
+
+}
+
+.banner{
+    height: 500px;
+    background-size: cover;    
+    width: 100%;
+    color: aliceblue;
+}
+
+.banner h1{
+    text-align: right;
+    font-weight: 300;
+    padding-right: 150px;
+    padding-top: 295px;
+    font-size: 45px;
+}
+
+.banner h1 span{
+    background-color: #176cc4;
+    padding: 0px 10px;
+}
+
+
+.button{
+
+    justify-content: right;
+    width: 30%;
+    display: flex;
+    text-align: center;
+}
+
+.call-to-action{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: calc(100% - 300px);
+    height: auto;
+    background-color: #176cc4;
+    color: #fff;
+    padding: 50px 150px;
+   
+}
+
+.button button{
+    border-radius: 50px;
+    padding: 15px 40px;
+    background-color: #176cc4;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.texto h2{
+    font-weight:  300;
+    
+}
+
+.tratamento{
+    width: 100%;
+    text-align: center;
+}
+
+.tratamento h1{
+    color: #176cc4;
+    padding-top: 40px; 
+
+}
+
+.tratamento p{
+    font-weight: 300;
+   color: #888888;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.tratamentos{
+    display: flex;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.tratamentos .box{
+    width: 33.33%;
+    text-align: center;
+}
+
+.tratamento .box p{
+    text-align: justify;
+    padding: 0px 30px;
+    padding-bottom: 40px;
+}
+
+.tratamentos .box img{
+    max-width: 300px;
+    border-radius: 800px;
+    height: 300px;
+   
+}
+.tratamentos .box h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.local{
+background-color: #176cc4;
+display: flex;
+padding: 50px 150px;
+width: calc(100% - 300px);
+}
+    
+.endereco{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.rodape{
+    color: #fff;
+    display: flex;
+    background-color: #484848;
+    padding: 50px 150px;
+    width: calc(100% - 300px);
+}
+
+.rodape .box{
+width: 33.33%;
+}
+
+.copyright{
+    color: #fff;
+    background-color: #2c2c2c;
+    padding: 30px 150px;
+
+
+}
+
+.mapa img{
+    max-width: 100%;
+    margin-bottom: -20px;
+}
+
+.rodape .sobre p{
+    max-width: 281px;
+}
+
+.rodape .links ul {
+    list-style: none;
+    margin-top: 25px;
+    
+}
+
+.rodape .links a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+}
+
+.rodape .social button{
+    background-color: #176cc4;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+
